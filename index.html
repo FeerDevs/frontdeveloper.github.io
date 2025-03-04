@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="theme.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+      font-size: 200px
+}</style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-cinza-escuro w3-card w3-left-align">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large w3-hover-vermelho w3-cinza-escuro"
+        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-texto">Home</a>
+      <a href="#habilidades" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-texto">Habilidades</a>
+      <a href="#projetos" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-texto">Projetos</a>
+      <a href="#contatos" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-texto">Contato</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-cinza-escuro w3-hide w3-hide-large w3-hide-medium">
+      <a href="#habilidades" class="w3-bar-item w3-button w3-padding-large w3-hover-texto">Habilidades</a>
+      <a href="#projetos" class="w3-bar-item w3-button w3-padding-large w3-hover-texto">Projetos</a>
+      <a href="#contatos" class="w3-bar-item w3-button w3-padding-large w3-hover-texto">Contatos</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-container w3-cinza-escuro  w3-center" style="padding:128px 16px">
+    <h2 class="w3-margin w3-xxxlarge ">Fernando Fernandes <i class="w3-vermelho-texto">Front End Developer</i> </h1>
+  </header>
+
+  <!-- Sobre -->
+  <div id="sobre" class="w3-row-padding w3-cinza-escuro  w3-padding w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1 class="w3-margin ">Sobre</h1>
+        <h5 class="w3-margin w3-vermelho-texto ">Sou desenvolvedor web front-end apaixonado por criar experiências
+          digitais intuitivas e envolventes.</h5>
+        <p class="w3-margin">Com foco em design responsivo e performance, busco transformar ideias em soluções visuais
+          de alta qualidade. Sempre em busca de aprender novas tecnologias e melhorar meu código, me dedico a entregar
+          resultados que encantam os usuários e atendem às necessidades do cliente com excelência.</p>
+      </div>
+
+      <div class="w3-third w3-center">
+        <img class="w3-round w3-animate-fadding box-anime" src="imagens/foto1.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Tecnologias e Habilidades -->
+  <div id="habilidades" class="w3-row-padding w3-cinza-escuro w3-padding-64 w3-container">
+    <div class="w3-content">
+
+      <div class="w3-center">
+        <h1>Tecnologias e Habilidades</h1>
+      </div>
+
+      <div class="w3-center w3-padding-32">
+        <img class="w3-hover-opacity" src="imagens/logohtml.png" alt="">
+        <img class="w3-hover-opacity" src="imagens/logocss.png" alt="">
+        <img class="w3-hover-opacity" src="imagens/javascriptlogo.png" alt="">
+        <img class="w3-hover-opacity" src="imagens/logoreact.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Projetos -->
+  <div id="projetos" class="w3-row-padding w3-cinza-escuro  w3-padding-64 w3-container">
+    <div class="w3-content">
+
+      <div class="w3-center">
+        <h1>Projetos</h1>
+      </div>
+
+      <div class="w3-center w3-padding-32">
+        <img class="w3-opacity w3-hover-opacity-off" src="imagens/boneco.svg" alt="">
+        <img class="w3-opacity w3-hover-opacity-off" src="imagens/boneco.svg" alt="">
+        <img class="w3-opacity w3-hover-opacity-off" src="imagens/boneco.svg" alt="">
+        <img class="w3-opacity w3-hover-opacity-off" src="imagens/boneco.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Contatos -->
+  <div id="contato" class="w3-row-padding w3-cinza-escuro  w3-padding-64 w3-container">
+    <div class="w3-content">
+
+      <div class="w3-center">
+        <h1>Contato</h1>
+      </div>
+
+      <div class="w3-center w3-xxlarge w3-padding-32">
+
+        
+        <a href="www.linkedin.com/in/fernando-fernandes-2a327721a"><i class="fa fa-linkedin w3-hover-opacity w3-hover-azul"></i></a>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.w3-rosa {color:#000000 !important; background-color:#BF2441 !important}
+.w3-cinza-escuro {color:#ffffff !important; background-color:#1C1D26 !important}
+.w3-cinza-claro {color:#ffffff !important; background-color:#848C8B !important}
+.w3-laranja {color:#000000 !important; background-color:#F27141 !important}
+.w3-vermelho,.w3-hover-vermelho:hover{color:#ffffff!important;background-color:#D92B2B!important}
+.w3-vermelho-texto{color:#D92B2B !important;}
+.w3-hover-texto:hover{color:#D92B2B!important;background-color:#1C1D26!important}
+.w3-verde,.w3-hover-verde:hover{color:#48C456!important;}
+.w3-azul,.w3-hover-azul:hover{color:#0073B1!important;}
+
+
+.tira-sublinhado {
+    text-decoration: none;
+}
+
+
+/* Color Theme Swatches in Hex */
+.Arquitetura-1-hex { color: #BF2441; }
+.Arquitetura-2-hex { color: #1C1D26; }
+.Arquitetura-3-hex { color: #848C8B; }
+.Arquitetura-4-hex { color: #F27141; }
+.Arquitetura-5-hex { color: #D92B2B; }
+
+/* Color Theme Swatches in RGBA */
+.Arquitetura-1-rgba { color: rgba(191, 36, 64, 1); }
+.Arquitetura-2-rgba { color: rgba(28, 28, 38, 1); }
+.Arquitetura-3-rgba { color: rgba(131, 140, 138, 1); }
+.Arquitetura-4-rgba { color: rgba(242, 112, 65, 1); }
+.Arquitetura-5-rgba { color: rgba(216, 43, 43, 1); }
+
+

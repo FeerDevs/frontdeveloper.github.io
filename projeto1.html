@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>F.Fernandes FrontDeveloper</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="sweet.css">
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+      font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+      font-size: 200px
+}</style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-cinza-escuro w3-card w3-left-align">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large w3-hover-vermelho w3-cinza-escuro"
+        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-texto">Home</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-cinza-escuro w3-hide w3-hide-large w3-hide-medium">
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-container w3-cinza-escuro  w3-center" style="padding:50px 16px">
+        <h1 class="w3-margin w3-xxxlarge ">Conversão de Comprimido para Gotas</h1>
+  </header>
+
+ 
+  <div id="sobre" class="w3-row-padding w3-cinza-escuro  w3-padding w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird w3-padding-32">
+        <div class="w3-panel w3-card">
+            <p>Desenvolvi uma aplicação para calcular a conversão de comprimidos para gotas de forma rápida e precisa. O sistema permite que o usuário insira a dose necessária, a dosagem do comprimido e a concentração da gota, e automaticamente calcula o número de comprimidos ou gotas necessários para a dose prescrita.
+
+                A interface é simples e intuitiva, garantindo facilidade de uso, enquanto o cálculo automatizado minimiza erros humanos. A ferramenta oferece resultados claros e precisos, ajudando profissionais da saúde a administrarem medicamentos de maneira eficiente e segura.
+                
+                A solução foi desenvolvida utilizando HTML, CSS e JavaScript, garantindo alta performance e acessibilidade. </p>
+        </div>
+      </div>
+
+        <!-- Calculadora -->
+      <div class="w3-third w3-center">
+        <div id="calculadora" class="w3-row-padding w3-cinza-escuro w3-padding w3-container">
+            <div class="w3-content w3-center w3-padding-32">
+        
+                    <label class="w3-left w3-margin" for="doseNecessaria">Dose necessária (mg):</label>
+                    <input class="w3-input  w3-margin" type="number" id="doseNecessaria" placeholder="Ex: 1000" />
+            
+                    <label class="w3-left w3-margin" for="doseComprimido">Dosagem do comprimido (mg):</label>
+                    <input class="w3-input  w3-margin" type="number" id="doseComprimido" placeholder="Ex: 500" />
+            
+                    <label class="w3-left w3-margin" for="doseGota">Dosagem por gota (mg):</label>
+                    <input class="w3-input  w3-margin" type="number" id="doseGota" placeholder="Ex: 20" />
+            
+                    <button onclick="calcular()">Calcular</button>
+            
+                    <div class="result" id="resultado"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+  <script src="index.js"></script>
+  <script src="sweet.js"></script>
+
+</body>
+
+</html>

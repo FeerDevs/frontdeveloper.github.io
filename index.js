@@ -21,7 +21,7 @@
             `;
 
             Swal.fire({
-                title: "Comprimidos necessários: " + gotasNecessarias,
+                title: "Serão Necessárias: " + gotasNecessarias + " gotas", 
                 icon: "success",
                 draggable: true
               });

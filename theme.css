@@ -16,6 +16,30 @@
     background-color: #BF2441;
 }
 
+.image-container {
+    position: relative; /* Necessário para o posicionamento da legenda */
+    display: inline-block; /* Faz as imagens e legendas ficarem na mesma linha */
+    margin: 10px; /* Espaço entre as imagens */
+  }
+  
+  .image-container .caption {
+    position: absolute; /* A legenda será posicionada em cima da imagem */
+    bottom: 0; /* Posiciona a legenda na parte inferior da imagem */
+    left: 0;
+    border-radius: 5%;
+    width: 100%; /* Faz a legenda ocupar toda a largura da imagem */
+    background-color: rgba(191, 36, 64, 0.8); /* Fundo escuro e transparente */
+    color: #ffffff; /* Cor do texto da legenda */
+    font-size: 1rem; /* Tamanho do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 10px; /* Espaçamento interno */
+    opacity: 0; /* Inicialmente, a legenda está invisível */
+    transition: opacity 0.3s ease; /* Transição suave de opacidade */
+  }
+  
+  .image-container:hover .caption {
+    opacity: 1; /* Torna a legenda visível quando o mouse passa sobre a imagem */
+  }
 
 /* Color Theme Swatches in Hex */
 .Arquitetura-1-hex { color: #BF2441; }

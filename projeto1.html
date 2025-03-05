@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <title>F.Fernandes FrontDeveloper</title>
@@ -52,12 +52,13 @@
 
   <!-- Header -->
   <header class="w3-container w3-cinza-escuro  w3-center" style="padding:50px 16px">
-        <h1 class="w3-margin w3-xxxlarge ">Conversão de Comprimido para Gotas</h1>
+    <h2 class="w3-margin w3-xxxlarge ">Gota<i class="w3-vermelho-texto">Fácil</i> </h2>
   </header>
 
  
   <div id="sobre" class="w3-row-padding w3-cinza-escuro  w3-padding w3-container">
     <div class="w3-content">
+
       <div class="w3-twothird w3-padding-32">
         <div class="w3-panel w3-card">
             <p>Desenvolvi uma aplicação para calcular a conversão de comprimidos para gotas de forma rápida e precisa. O sistema permite que o usuário insira a dose necessária, a dosagem do comprimido e a concentração da gota, e automaticamente calcula o número de comprimidos ou gotas necessários para a dose prescrita.
@@ -67,26 +68,40 @@
                 A solução foi desenvolvida utilizando HTML, CSS e JavaScript, garantindo alta performance e acessibilidade. </p>
         </div>
       </div>
+      
 
         <!-- Calculadora -->
       <div class="w3-third w3-center">
-        <div id="calculadora" class="w3-row-padding w3-cinza-escuro w3-padding w3-container">
+        <div id="calculadora" class="w3-row-padding w3-round w3-cinza-claro w3-padding w3-container">
             <div class="w3-content w3-center w3-padding-32">
-        
-                    <label class="w3-left w3-margin" for="doseNecessaria">Dose necessária (mg):</label>
-                    <input class="w3-input  w3-margin" type="number" id="doseNecessaria" placeholder="Ex: 1000" />
+         
+              <form class="w3-container">
+              <p>
+              <label class="" for="doseNecessaria">Dose necessária (mg):</label>
+              <input class="w3-input" type="number" id="doseNecessaria" placeholder="Ex: 1000" />
+              <p>
+              <label class="" for="doseComprimido">Dosagem do comprimido (mg):</label>
+              <input class="w3-input" type="number" id="doseComprimido" placeholder="Ex: 500" />
+              <p>
+              <label class="" for="doseGota">Dosagem por gota (mg):</label>
+              <input class="w3-input" type="number" id="doseGota" placeholder="Ex: 20" />
+              </form>
             
-                    <label class="w3-left w3-margin" for="doseComprimido">Dosagem do comprimido (mg):</label>
-                    <input class="w3-input  w3-margin" type="number" id="doseComprimido" placeholder="Ex: 500" />
-            
-                    <label class="w3-left w3-margin" for="doseGota">Dosagem por gota (mg):</label>
-                    <input class="w3-input  w3-margin" type="number" id="doseGota" placeholder="Ex: 20" />
-            
-                    <button onclick="calcular()">Calcular</button>
+                    <button class="w3-btn w3-vermelho w3-round " onclick="calcular()">Calcular</button>
             
                     <div class="result" id="resultado"></div>
           </div>
       </div>
+    </div>
+
+   
+    
+  </div>
+</div>
+
+  <!-- Contatos -->
+  <div id="contato" class="w3-row-padding w3-cinza-escuro  w3-padding-64 w3-container">
+    <div class="w3-content">
     </div>
   </div>
 

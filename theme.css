@@ -8,10 +8,12 @@
 .w3-verde,.w3-hover-verde:hover{color:#48C456!important;}
 .w3-azul,.w3-hover-azul:hover{color:#0073B1!important;}
 
-
-
 .tira-sublinhado {
     text-decoration: none;
+}
+
+.button {
+    background-color: #BF2441;
 }
 
 
